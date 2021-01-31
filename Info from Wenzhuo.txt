@@ -1,0 +1,19 @@
+1. 
+Kalman filter is enabled. The PC client bootloader will disable the Kalman filter. 
+
+2.
+Enter the virtual environment in Windows system by:
+	venv\Scripts\activate
+
+3. 
+cd C:\Users\Wang Wenzhuo\Documents\GitHub\crazyflie-lib-python
+venv\Scripts\activate
+cd examples
+python 1temp.py
+python autonomousSequence.py
+
+4.
+See autonomousSequence.py for code details. 
+
+5.
+To enable Kalman filter, start a virtual machine, download crazyflie-firmware source code. Rename the tools/make/config.mk.example to config.mk, and run "make clean","make","make cload" in the console. 
